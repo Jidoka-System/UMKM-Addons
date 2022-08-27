@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+
+        <template id="assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/jidoka_dynamic_accounts_report/static/src/js/financial_reports.js"/>
+                <script type="text/javascript" src="/jidoka_dynamic_accounts_report/static/src/js/general_ledger.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

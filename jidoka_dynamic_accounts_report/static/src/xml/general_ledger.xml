@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="GLFilterView" t-inherit="dynamic_accounts_report.GLFilterView" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('sub_container_right')]" position="replace">
+            <div></div>
+        </xpath>
+    </t>
+</templates>
